@@ -173,7 +173,7 @@ if version >= 703
 	call s:HL('ColorColumn',  'none', 'dark1')
 
 	" Concealed element: \lambda → λ"
-	call s:HL('Conceal', 'blue', 'none')"
+	call s:HL('Conceal', 'blue')"
 
 	" Line number of CursorLine 
 	call s:HL('CursorLineNr', 'yellow', 'dark1')
@@ -247,7 +247,7 @@ call s:HL('lCursor', 'none', 'none', 'inverse')
 
 call s:HL('Special', 'orange')
 
-call s:HL('Comment', 'medium', 'none', 'italic')
+call s:HL('Comment', 'medium', 'bg')
 call s:HL('Todo',    'fg', 'bg', 'bold')
 
 " Generic statement
